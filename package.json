@@ -1,0 +1,23 @@
+{
+  "name": "speedbox",
+  "version": "1.0.0",
+  "description": "speedbox upload and download files",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remirobert/SpeedBox.git"
+  },
+  "author": "remirobert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remirobert/SpeedBox/issues"
+  },
+  "homepage": "https://github.com/remirobert/SpeedBox#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "resumable": "0.0.1"
+  }
+}
