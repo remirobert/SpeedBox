@@ -1,16 +1,7 @@
-var Resumable = require('resumable');
+var socket = require('socket.io-client')('http://127.0.0.1:3000');
 
-var r = new Resumable({
-  target:'/upload',
-  chunkSize:1*1024*1024,
-  simultaneousUploads:4,
-  throttleProgressCallbacks:1,
-  resumableRelativePath:'/Users/remirobert/Documents/node/SpeedBox/public_client/image.png'
+socket.on('connection', function(socket) {
+  socket.on('welcome', function(msg) {
+    console.log('welcome msg : ', msg);
+  });
 });
-
-if(!r.support) {
-  console.log("Resumable not availbaible");
-}
-else {
-  r.upload();
-}
