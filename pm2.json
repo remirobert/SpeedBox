@@ -1,0 +1,53 @@
+{
+  "apps": [
+    {
+      "exec_mode": "fork_mode",
+      "script": "./server.js",
+      "name": "server-1",
+      "env": {
+        "SERVER_PORT": 8001
+      },
+      "error_file": "./logs/server-1.err.log",
+      "out_file": "./logs/server-1.out.log"
+    },
+    {
+      "exec_mode": "fork_mode",
+      "script": "./server.js",
+      "name": "server-2",
+      "env": {
+        "SERVER_PORT": 8002
+      },
+      "error_file": "./logs/server-2.err.log",
+      "out_file": "./logs/server-2.out.log"
+    },
+    {
+      "exec_mode": "fork_mode",
+      "script": "./server.js",
+      "name": "server-3",
+      "env": {
+        "SERVER_PORT": 8003
+      },
+      "error_file": "./logs/server-3.err.log",
+      "out_file": "./logs/server-3.out.log"
+    },
+    {
+      "exec_mode": "fork_mode",
+      "script": "./server.js",
+      "name": "server-4",
+      "env": {
+        "SERVER_PORT": 8004
+      },
+      "error_file": "./logs/server-4.err.log",
+      "out_file": "./logs/server-4.out.log"
+    },
+    {
+      "script": "./load-balancer.js",
+      "name": "load-balancer",
+      "env": {
+        "SERVER_PORT": 3000
+      },
+      "error_file": "./logs/load-balancer.err.log",
+      "out_file": "./logs/load-balancer.out.log"
+    }
+  ]
+}
