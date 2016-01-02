@@ -1,4 +1,5 @@
-var socket = require('socket.io-client')('http://localhost:3000');
+var port = process.env.SERVER_PORT || 8000;
+var socket = require('socket.io-client')('http://localhost:', port);
 var ss = require('socket.io-stream');
 var stream = ss.createStream();
 var filename = 'public_client/image.png';
