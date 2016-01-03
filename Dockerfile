@@ -7,4 +7,6 @@ RUN npm install -g pm2@latest
 
 RUN echo "Hello docker"
 
+RUN start pm2 start pm2.json
+
 CMD ["/start"]
