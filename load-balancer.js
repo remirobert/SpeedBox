@@ -47,6 +47,6 @@ var server = http.createServer(function(req,res) {
       console.error("failed to get current target. No servers available");
     }
   });
-}).listen(process.env.SERVER_PORT || 8000, function() {
-  console.log('load-balancer stared at port : ', process.env.SERVER_PORT || 8000);
+}).listen(process.env.SERVER_PORT || 3001, function() {
+  console.log('load-balancer stared at port : ', process.env.SERVER_PORT || 3001);
 });

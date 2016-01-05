@@ -1,69 +1,78 @@
 var express = require('express');
 var app = express();
 var server = require('http').Server(app);
+var fs = require('fs');
+var bodyParser = require('busboy-body-parser');
 
+app.use(bodyParser());
 
-// var fs = require('fs');
-// var bodyParser = require('body-parser')
-// var busboyBodyParser = require('busboy-body-parser');
-// var gfs = require('gridfs');
-// var Grid = require('gridfs-stream');
-// var mongoose = require('mongoose');
+var mongo = require('mongodb');
+var Grid = require('gridfs-stream');
+var db = new mongo.Db('yourDatabaseName', new mongo.Server("127.0.0.1", 27017));
 
-// var io = require('socket.io')(server);
-//
-// io.on('connect', function(socket) {
-//   console.log("connect server socket.io");
-//
-//   io.on('disconnect', function(socket) {
-//     console.log("disconnection server socket.io");
-//   });
-// });
+var gfs;
 
+db.open(function (err) {
+  if (err) {
+    console.log("error open database : ", err);
+  }
+  else {
+    console.log("success open database");
+    gfs = Grid(db, mongo);
+  }
+});
 
-// mongoose.connect('mongodb://localhost/test');
-// var gfs = Grid(mongoose);
+app.post('/upload', function(req, res) {
+  var dirname = require('path').dirname(__dirname);
+  var part = req.files.filename;
 
+  var writeStream = gfs.createWriteStream({
+    filename: part.name,
+    mode: 'w',
+    content_type:part.mimetype
+  });
+  writeStream.on('close', function() {
+    return res.status(200).send({
+      message: 'Success'
+    });
+  });
+  writeStream.on('error', function(err) {
+    return res.status(400).send({
+      message: err
+    });
+  });
+  writeStream.write(part.data);
+  writeStream.end();
+});
 
-// db.on('error', console.error.bind(console, 'connection error:'));
-// db.once('open', function() {
-//   console.log("mongoose database opened");
-// });
+app.get('/download', function(req, res) {
+  gfs.files.find({ filename: req.params.filename }).toArray(function (err, files) {
+    if(files.length === 0){
+      return res.status(400).send({
+        message: 'File not found'
+      });
+    }
 
-// app.use(bodyParser.urlencoded({ extended: false }))
-// app.use(bodyParser.json())
+    res.writeHead(200, {'Content-Type': files[0].contentType});
 
-// app.use(busboyBodyParser());
+    var readstream = gfs.createReadStream({
+      filename: files[0].filename
+    });
 
-// app.post('/upload', function(req, res) {
-//   console.log(req.files);
-//   var tempfile    = req.files.filename.path;
-//   var origname    = req.files.filename.name;
-//   var writestream = gfs.createWriteStream({ filename: origname });
-//
-//   console.log("params : ");
-//   console.log(tempfile);
-//   console.log(origname);
-//
-//   // open a stream to the temporary file created by Express...
-//   fs.createReadStream(tempfile)
-//   .on('end', function() {
-//     res.send('OK');
-//   })
-//   .on('error', function() {
-//     res.send('ERR');
-//   })
-//   // and pipe it to gfs
-//   .pipe(writestream);
-// });
-//
-// app.post('/download', function(req, res) {
-//   gfs
-//   // create a read stream from gfs...
-//   .createReadStream({ filename: req.param('filename') })
-//   // and pipe it to Express' response
-//   .pipe(res);
-// });
+    readstream.on('data', function(data) {
+      res.write(data);
+    });
+
+    readstream.on('end', function() {
+      res.end();
+    });
+
+    readstream.on('error', function (err) {
+      console.log('An error occurred!', err);
+      throw err;
+    });
+  });
+});
 
 app.get('/', function(req, res) {
   var msg = "resp from server listening at port : " + (process.env.SERVER_PORT || 8000);
