@@ -14,6 +14,12 @@ The servers are clustering, and managed by a load-balancer.
 
 <br/>
 
+#Requirements
+
+  - pm2
+  - node.js
+  - mongodb
+
 #How to run it
 
 First, we use *pm2* to manage the cluster servers.
