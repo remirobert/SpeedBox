@@ -10,6 +10,8 @@
 It allows you to download and upload files.
 The servers are clustering, and managed by a load-balancer.
 
+
+
 #How to run it
 
 First, we use *pm2* to manage the cluster servers.
@@ -37,6 +39,7 @@ In addition of that, all the server, and also the load-balancer needs to be init
       "error_file": "./logs/load-balancer.err.log",
       "out_file": "./logs/load-balancer.out.log"
     }
+  ]
 }
 ```
 
