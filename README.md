@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/packagist/l/doctrine/orm.svg)
 ![express](https://img.shields.io/badge/express-yes-orange.svg)
 
-[<img align="left" src="logo.png" hspace="20">](#logo) SpeedBox is a Node.js server.
+[<img align="left" src="logo.png" hspace="20">](#logo) **SpeedBox** is a **Node.js** server.
 
 
 It allows you to download and upload files.
@@ -22,7 +22,7 @@ The servers are clustering, and managed by a load-balancer.
 
 #How to run it
 
-First, we use *pm2* to manage the cluster servers.
+First, we use **pm2** to manage the cluster servers.
 In addition of that, all the server, and also the load-balancer needs to be initiated in the *pm2.json* file.
 
 ```json
@@ -51,8 +51,8 @@ In addition of that, all the server, and also the load-balancer needs to be init
 }
 ```
 
-Here you need to specifie the *SERVER_PORT* property, if not a default port will be allowed, and some conflit can happend.
-you can add as many server as you want. *pm2* will manager all the process.
+Here you need to specifie the **SERVER_PORT** property, if not a default port will be allowed, and some conflit can happend.
+you can add as many server as you want. **pm2** will manager all the process.
 
 To run the servers:
 ```bash
@@ -64,4 +64,4 @@ To stop the servers:
 pm2 stop all
 ```
 
-For more informations about *pm2*, please look at the offcial documentation.
+For more informations about **pm2**, please look at the offcial documentation.
