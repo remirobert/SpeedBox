@@ -21,6 +21,8 @@ The servers are clustering, and managed by a load-balancer.
   - mongodb
 
 #Package
+The *package.json* file contains all the packages used in this project.
+This is the main list and their usage.
 
   - **express**, to manage the http server
   - **mongodb**, to manage the connection with the *mongodb* database
