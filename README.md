@@ -13,6 +13,8 @@ The servers are clustering, and managed by a load-balancer.
 <br/>
 <br/>
 
+All the requests made by a client, are redirected directely to the load-balancer. The client doesn't know anything about the server. The load-balance, has a server list, and then balance the request from the client to the servers. It's acting like a bridge between the client and the servers. The way we develop the servers, in clustering mode, increase the traitement and the performance of the whole architecture. Each server is linked to the same mongodb database. That means, all the datas are stored in the same place. If a server crashed or is shutted down, the client still able to interact with the datas.
+
 ```
                      +-------------------+
                      |                   |
@@ -57,6 +59,8 @@ The servers are clustering, and managed by a load-balancer.
 ```
 
 <br/>
+
+In our current architechture, all the servers, are in the same machine. But abviousely, they can also be to a distinct server at least the can reach the database.
 
 #Requirements
 
