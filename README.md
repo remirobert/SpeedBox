@@ -20,6 +20,16 @@ The servers are clustering, and managed by a load-balancer.
   - node.js
   - mongodb
 
+#Package
+
+  - **express**, to manage the http server
+  - **mongodb**, to manage the connection with the *mongodb* database
+  - **gridfs-stream**, to manage the data stream in the *mongodb*, write and read. And split data in chunck, to pass the limitation of 16Mo, allowed to mongodb per document
+  - **is-reachable**, to try the reachability to an host. Used to check if a server is available or not
+  - **config.json**, to read configuration files, in *json format*, used to specify the server list to the load-balancer
+  - **http-proxy**, to manage the proxy in the load-balancer, and transfert request, to an another server
+  - **multer**, to get easily the params from a *form request*
+
 #How to run it
 
 First, we use **pm2** to manage the cluster servers.
