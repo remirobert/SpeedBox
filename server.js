@@ -4,6 +4,8 @@ var server = require('http').Server(app);
 var fs = require('fs');
 var bodyParser = require('busboy-body-parser');
 
+var socket = require('socket.io-client')("http://127.0.0.1:3001");
+
 app.use(bodyParser());
 
 var mongo = require('mongodb');
@@ -11,6 +13,12 @@ var Grid = require('gridfs-stream');
 var db = new mongo.Db('yourDatabaseName', new mongo.Server("127.0.0.1", 27017));
 
 var gfs;
+
+socket.on('connect', function() {
+  console.log("connected to load-balancer");
+  var ipAddress = "http://127.0.0.1:" + (process.env.SERVER_PORT || 8000);
+  socket.emit('connect-server', {ip: ipAddress});
+});
 
 db.open(function (err) {
   if (err) {
