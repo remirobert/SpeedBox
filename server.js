@@ -54,7 +54,7 @@ app.post('/upload', function(req, res) {
 });
 
 app.get('/download', function(req, res) {
-  gfs.files.find({ filename: req.params.filename }).toArray(function (err, files) {
+  gfs.files.find({ filename: req.query.filename }).toArray(function (err, files) {
     if(files.length === 0){
       return res.status(400).send({
         message: 'File not found'
