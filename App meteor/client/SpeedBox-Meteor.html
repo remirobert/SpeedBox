@@ -1,0 +1,43 @@
+<head>
+  <title>SpeedBox - Meteor</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Welcome to SpeedBox!</h1>
+
+  {{> main}}
+</body>
+
+<template name="main">
+  <div class="row">
+    <div class="col s6 client">
+      <h3>Client</h3>
+
+      <form class="col s12 upload" style="padding: 10px;">
+        <div class="file-field input-field">
+          <div class="btn">
+          <span>File</span>
+          <input type="file" id="fileinput">
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" type="text" placeholder="Upload one or more files">
+          </div>
+        </div>
+        <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>Upload</button>
+      </form>
+    </div>
+    <div class="col s6 server">
+      <h3>Server</h3>
+
+      <ul class="collection">
+        {{#each Files}}
+          <li class="collection-item">
+            {{filename}}
+            <a href="{{link}}" class="secondary-content" download="{{filename}}"><i class="material-icons">get_app</i></a>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</template>

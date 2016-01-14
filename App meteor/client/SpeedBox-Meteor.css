@@ -1,0 +1,13 @@
+/* CSS declarations go here */
+
+.client {
+  width: 50%;
+  height: 100%;
+  border: dashed 2px;
+}
+
+.server {
+  width: 50%;
+  height: 100%;
+  border: dashed 2px;
+}

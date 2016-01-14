@@ -1,0 +1,495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fil",
+				"file"
+			],
+			[
+				"file",
+				"file"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"H",
+				"HTTP	HTTP.get(url, [options], [asyncCallback])"
+			],
+			[
+				"Me",
+				"Meteor.users	Meteor.users"
+			],
+			[
+				"on",
+				"onBeforeAction"
+			],
+			[
+				"M",
+				"Meteor.users	Meteor.users"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"g",
+				"gte"
+			],
+			[
+				"cou",
+				"countPartyIn"
+			],
+			[
+				"se",
+				"selector"
+			],
+			[
+				"par",
+				"partySelector"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"i",
+				"idparty"
+			],
+			[
+				"new",
+				"newDocument"
+			],
+			[
+				"S",
+				"Schema"
+			],
+			[
+				"Ti",
+				"Timetable"
+			],
+			[
+				"r",
+				"route"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ge",
+				"geolocation"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"o",
+				"object"
+			],
+			[
+				"pu",
+				"publicationName"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"ph",
+				"photoProfile"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"b",
+				"birthdate"
+			],
+			[
+				"Sh",
+				"Schema"
+			],
+			[
+				"wh",
+				"width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ti",
+				"timeEstimation"
+			],
+			[
+				"get",
+				"get_next_action"
+			],
+			[
+				"id",
+				"idInterval"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"cli",
+				"clientSignature"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"pr",
+				"problem"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"ca",
+				"canvas	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/client/SpeedBox-Meteor.html",
+		"/C/Users/Flavien/Source/Repos/SpeedBox/server.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/client/SpeedBox-Meteor.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/server/lib/methods.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/settings.json",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/.meteor/packages",
+		"/C/Users/Flavien/Source/Repos/SpeedBox/server-list.json",
+		"/C/Users/Flavien/Source/Repos/SpeedBox/load-balancer.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox/client.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/client/lib/methods.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox/pm2.json",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/run.bat",
+		"/C/Users/Flavien/Source/Repos/SpeedBox/run.bat",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/client/router/config.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/client/router/public.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/collections/Files.js",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/SpeedBox-Meteor.css",
+		"/C/Users/Flavien/Source/Repos/SpeedBox-Meteor/SpeedBox-Meteor.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/router/public.js",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/router/action.js",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/application/loginPage.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/admin/navbar_admin/navbar_admin.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/visitor/navbar_visitor/navbar_visitor.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/application/loginPage.js",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/router/configuration.js",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/home/home.js",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/home/home.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/admin/admin.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/layout_visitor.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/layout_admin.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/stylesheets/palette.scss",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/stylesheets/style.scss",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/stylesheets/style.css",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/statistic/statistic.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato-deploy/mup.json",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/default/default.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/default/navbar_default/navbar_default.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/default/footer_default/footer_default.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/layout_default.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/statistic/statistic.js",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/default/default.js",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/flavienpensato.sublime-project",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/head.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/application/layout.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/application/landing.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/application/not_found.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/.meteor/packages",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/templates/profiles/default/layout_default.html",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/lib/constants.js",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/lib/style.css",
+		"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/client/lib/methods.js",
+		"/home/flavien/Projects/Cashnight/client/stylesheets/style.css",
+		"/home/flavien/Projects/Cashnight/server/publications/counter.js",
+		"/home/flavien/Projects/Cashnight/.meteor/packages",
+		"/home/flavien/Projects/Cashnight/client/templates/party/list_party.html",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/default/profile_default.html",
+		"/home/flavien/Projects/Cashnight/client/templates/party/party.js",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/default/landing_default.html",
+		"/home/flavien/Projects/Cashnight/server/publications/user.js",
+		"/home/flavien/Projects/Cashnight/lib/constants.js",
+		"/home/flavien/Projects/Cashnight/collections/counter.js",
+		"/home/flavien/Projects/Cashnight/client/templates/party/item_party.js",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/default/navbar_default/navbar_default.html",
+		"/home/flavien/Projects/Cashnight/client/templates/party/list_party.js",
+		"/home/flavien/Projects/Cashnight/client/routes/configuration.js",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/default/profile_default.js",
+		"/home/flavien/Projects/Cashnight/collections/party.js",
+		"/home/flavien/Projects/Cashnight/lib/methods/update/party.js",
+		"/home/flavien/Projects/Cashnight/client/modules/_spinner.js",
+		"/home/flavien/Projects/Cashnight/client/modules/_toastr.js",
+		"/home/flavien/Projects/Cashnight/lib/methods/insert/party.js",
+		"/home/flavien/Projects/Cashnight/server/publications/club.js",
+		"/home/flavien/Projects/Cashnight/collections/club.js",
+		"/home/flavien/Projects/Cashnight/client/routes/public.js",
+		"/home/flavien/Projects/Cashnight/client/templates/club/list_club.html",
+		"/home/flavien/Projects/Cashnight/client/templates/club/club.js",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/club/landing_club.html",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/default/navbar_default/navbar_default.js",
+		"/home/flavien/Projects/Cashnight/client/templates/club/list_club.js",
+		"/home/flavien/Projects/Cashnight/client/templates/party/item_party.html",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/club/profile_club.js",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/club/profile_club.html",
+		"/home/flavien/Projects/Cashnight/server/modules/Account.js",
+		"/home/flavien/Projects/Cashnight/server/modules/club.js",
+		"/home/flavien/Projects/Cashnight/server/publications/party.js",
+		"/home/flavien/Projects/Cashnight/server/startup.js",
+		"/home/flavien/Projects/Cashnight/collections/user.js",
+		"/home/flavien/Projects/Cashnight/client/routes/beforeAction.js",
+		"/home/flavien/Projects/Cashnight/private/nightclubs.txt",
+		"/home/flavien/Projects/Cashnight/client/lib/methods.js",
+		"/home/flavien/Projects/Cashnight/client/templates/club/item_club.html",
+		"/home/flavien/Projects/Cashnight/client/templates/application/landing_default.js",
+		"/home/flavien/Projects/Cashnight/client/templates/application/landing_club.js",
+		"/home/flavien/Projects/Cashnight/client/templates/application/landing_club.html",
+		"/home/flavien/Projects/Cashnight/client/templates/application/landing_default.html",
+		"/home/flavien/Projects/Cashnight/client/templates/club/club.html",
+		"/home/flavien/Projects/Cashnight/application.html",
+		"/home/flavien/Projects/Cashnight/client/templates/include/loading.html",
+		"/home/flavien/Projects/Cashnight/settings.json",
+		"/home/flavien/Projects/Cashnight/client/templates/default/landing.js",
+		"/home/flavien/Projects/Cashnight/client/templates/layout_club.html",
+		"/home/flavien/Projects/Cashnight/client/templates/layout_default.html",
+		"/home/flavien/Projects/Cashnight/client/templates/default/landing.html",
+		"/home/flavien/Projects/Cashnight/server/modules/_AWS.js",
+		"/home/flavien/Projects/Cashnight/lib/modules/_AWS.js",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/club/footer_club/footer_club.html",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/club/navbar_club/navbar_club.html",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/club/navbar_club/navbar_club.js",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/profile.html",
+		"/home/flavien/Projects/Cashnight/client/templates/default/navbar_default/navbar_default.html",
+		"/home/flavien/Projects/Cashnight/client/templates/profile/profile.js",
+		"/home/flavien/Projects/Cashnight/client/templates/default/footer_default/footer_default.js",
+		"/home/flavien/Projects/Cashnight/client/templates/default/footer_default/footer_default.html",
+		"/home/flavien/Projects/Cashnight/client/templates/default/layout_default.html",
+		"/home/flavien/Projects/Cashnight/client/templates/default/navbar_default/navbar_default.js",
+		"/home/flavien/Projects/Cashnight/client/config/autoform.js",
+		"/home/flavien/Projects/Cashnight/client/templates/application/register.js",
+		"/home/flavien/Projects/Cashnight/client/templates/application/register.html",
+		"/home/flavien/Projects/Citodi/client/stylesheets/materialize-src/sass/components/_color.scss",
+		"/home/flavien/Projects/Cashnight/client/lib/styles.js",
+		"/home/flavien/Projects/Cashnight/client/style.css",
+		"/home/flavien/Projects/Cashnight/lib/methods.js",
+		"/home/flavien/Projects/Cashnight/client/templates/vitrine/landing.html",
+		"/home/flavien/Projects/Cashnight/client/templates/vitrine/vitrine_layout.html",
+		"/home/flavien/Projects/Cashnight/client/main.html",
+		"/home/flavien/Projects/Cashnight/client/main.js",
+		"/home/flavien/Projects/Cashnight/lib/router.js",
+		"/home/flavien/Projects/Citodi/lib/tools.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/flavien/Projects/Cashnight",
+			"/home/flavien/Projects/Citodi/client,/home/flavien/Projects/Citodi/lib,/home/flavien/Projects/Citodi/public,/home/flavien/Projects/Citodi/server"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"});",
+			"\n",
+			"flavienpensato",
+			"pickadate",
+			"z-index",
+			"login",
+			"ee6e73",
+			"#ee6e73",
+			"velocity",
+			"navbar_enduser",
+			"late",
+			"pickup_order_deliver",
+			"waiting",
+			"call(\"get_next_action",
+			"call('get_next_action",
+			"NEW COURSE",
+			"status",
+			"starting_point",
+			"margin-left",
+			"absolute",
+			"place_h",
+			"SIGNATUREplace_h",
+			"SIGNATURE",
+			"signature",
+			"after_break",
+			"signature",
+			"break",
+			"problem_bis"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fixed"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Flavien/Source/Repos/flavienpensato.ovh/flavienpensato.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true
+}
