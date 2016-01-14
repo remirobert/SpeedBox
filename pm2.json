@@ -39,15 +39,6 @@
       },
       "error_file": "./logs/server-4.err.log",
       "out_file": "./logs/server-4.out.log"
-    },
-    {
-      "script": "./load-balancer.js",
-      "name": "load-balancer",
-      "env": {
-        "SERVER_PORT": 3000
-      },
-      "error_file": "./logs/load-balancer.err.log",
-      "out_file": "./logs/load-balancer.out.log"
     }
   ]
 }
