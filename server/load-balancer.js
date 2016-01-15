@@ -61,6 +61,7 @@ var getCurrentTarget = function(currentTest, callback) {
 
 var count = 0;
 var server = http.createServer(function(req, res) {
+  console.log("get request");
   getCurrentTarget(0, function(currentProxy) {
     if (currentProxy) {
       currentProxy.web(req, res);
