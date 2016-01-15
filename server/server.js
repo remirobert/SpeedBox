@@ -89,6 +89,22 @@ app.get('/', function(req, res) {
   })
 });
 
+app.get('/files', function(req, res) {
+  gfs.files.find({}).toArray(function (err, files) {
+    if (err) {
+      return res.status(401).send({
+        message: "No files found"
+      });
+    }
+    var fileNames = files.map(function(currentFile) {
+      return currentFile.filename
+    })
+    return res.status(200).send({
+      files: fileNames
+    });
+    });
+});
+
 server.listen(process.env.SERVER_PORT || 8000, function () {
   console.log('server stared at port : ', process.env.SERVER_PORT || 8000);
 });
